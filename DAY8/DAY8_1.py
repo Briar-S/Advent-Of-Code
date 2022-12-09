@@ -4,18 +4,18 @@ orchArray=[]
 resultArray=[]
 
 ##################################
-#		|Assignments|			 #
+#	|Assignments|
 ##################################
-for i in range(0,99):			 #
-	resultArray.append([])		 #
-	for j in range(0,99):		 #
-		resultArray[i].append(0) #
-for line in curFile:			 #
-	arrayList.append(line[:-1])	 #
-								 #
-for line in arrayList:			 #
-	orchArray.append([*line])	 #
-								 #
+for i in range(0,99):
+	resultArray.append([])
+	for j in range(0,99):
+		resultArray[i].append(0)
+		
+for line in curFile:
+	arrayList.append(line[:-1])
+	
+for line in arrayList:
+	orchArray.append([*line])
 ##################################
 totalCounter=392
 
