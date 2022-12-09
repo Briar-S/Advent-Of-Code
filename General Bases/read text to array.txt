@@ -1,0 +1,13 @@
+import os
+
+curFile = open("input.txt",'r').readlines()
+arrayList=[]
+tempTotal=0
+curMax=0
+totalArray=[]
+
+for line in curFile:
+	size = len(line)
+	arrayList.append(line[:-1])
+	
+print(arrayList)

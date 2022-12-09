@@ -21,5 +21,3 @@ for line in arrayList:
 	
 totalArray.sort()
 print(totalArray)
-	
-
